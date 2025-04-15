@@ -1,51 +1,122 @@
-## Project info
+# Converse E-commerce Website
 
-## How can I edit this code?
+![Converse Logo](/assets/logo.png)
 
-There are several ways of editing your application.
+## 📋 Project Overview
+A modern e-commerce platform for Converse shoes, offering a seamless shopping experience with a clean, responsive design.
 
-**Use your preferred IDE**
+## ✨ Key Features
+- Responsive product catalog
+- Advanced filtering and search
+- Shopping cart functionality
+- User authentication
+- Wishlist management
+- Order tracking
+- Mobile-first design
+- SEO optimization
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
+- **Frontend:** React + TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS + shadcn-ui
+- **State Management:** React Context API
+- **Font:** Poppins (Google Fonts)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📱 Screenshots
+![Uploading Screenshot 2025-04-16 at 01.17.26.png…]()
 
-Follow these steps:
+## 🚀 Getting Started
 
+### Prerequisites
+- Node.js (v16+)
+- npm (v7+)
+
+### Installation
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone https://github.com/ADRIANHHALIM/converse-Ecommerce
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to project
+cd Converse-Web E commerce
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install react
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 📁 Project Structure
+```
+converse-ecommerce/
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/         # Route pages
+│   ├── styles/        # Global styles
+│   ├── context/       # React Context
+│   └── utils/         # Helper functions
+├── public/            # Static assets
+└── tests/            # Test files
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🧪 Running Tests
+```sh
+npm run test
+```
 
-**Use GitHub Codespaces**
+## 📦 Build & Deploy
+```sh
+# Create production build
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Preview production build
+npm run preview
+```
+
+## 🔧 Configuration
+Environment variables can be set in `.env`:
+```env
+VITE_API_URL=your_api_url
+VITE_PUBLIC_URL=your_public_url
+```
+
+## 🌐 Browser Support
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## 🤝 Contributing
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/YourFeature`)
+3. Commit changes (`git commit -m 'Add YourFeature'`)
+4. Push to branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
+
+## 👤 Contact
+Adrian Halim
+- GitHub: [ADRIANHHALIM](https://github.com/ADRIANHHALIM)
+- Email: your.email@example.com
+
+## 📈 Future Improvements
+- [ ] Implement payment gateway integration
+- [ ] Add product reviews and ratings
+- [ ] Integrate social media sharing
+- [ ] Add size guide
+- [ ] Implement AR try-on feature
+
+## 🙏 Acknowledgments
+- Converse for brand inspiration
+- shadcn-ui for UI components
+- Icons from Heroicons
+- All contributors
 
 ## What technologies are used for this project?
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Vite
+TypeScript
+React
+shadcn-ui
+Tailwind CSS
