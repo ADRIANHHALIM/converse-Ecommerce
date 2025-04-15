@@ -96,7 +96,7 @@ VITE_PUBLIC_URL=your_public_url
 ## 👤 Contact
 Adrian Halim
 - GitHub: [ADRIANHHALIM](https://github.com/ADRIANHHALIM)
-- Email: your.email@example.com
+- Email: adrianhalim05@gmail.com
 
 ## 📈 Future Improvements
 - [ ] Implement payment gateway integration
